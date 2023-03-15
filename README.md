@@ -1,5 +1,5 @@
 # Práctica GIT
-## _1. Commit inicial_
+## _1. Commit y push inicial_
 - Clonamos nuestro repositorio remoto al local con el comando "git clone https://github.com/bingchilling01/masteruah/"
 - Cambiamos al directorio ./masteruah con "cd masteruah"
 - Agregamos el fichero README con "git add README.md" 
