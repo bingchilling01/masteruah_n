@@ -32,18 +32,29 @@
 - Nos cambiamos a la rama principal con 'git checkout main'
 - Y fusionamos la rama principal con la v0.2 con 'git merge v0.2'
 - Nos sale el conflicto como se ve en la captura:
+![CONFLICTO](https://github.com/bingchilling01/masteruah/blob/main/capturas/1conflicto.png "CONFLICTO")
 ## _6. Listar ramas fusionadas y no fusionadas_
 - Listamos las ramas fusionadas con 'git branch --merge' y vemos que sale sólo la principal
 - Listamos las ramas sin fusionar con 'git branch --no-merge' y vemos que sale la v0.2
+![Lista_fusiones](https://github.com/bingchilling01/masteruah/blob/main/capturas/2listado.png "Listado_fusiones")
 ## _7. Solucionar conflicto_
 - Vemos el archivo conflictivo con 'git status' y vemos que es el fichero 1.txt
-- Editamos el fichero con GNU NANO con el comando 'nano "fichero 1.txt"'+
+![fichero conflictivo](https://github.com/bingchilling01/masteruah/blob/main/capturas/3fichconf.png "git status")
+- Editamos el fichero con GNU NANO con el comando 'nano "fichero 1.txt"' <br />
+Antes:
+![Before](https://github.com/bingchilling01/masteruah/blob/main/capturas/4nano.png "Antes")
+<br />
+Después:
+![After](https://github.com/bingchilling01/masteruah/blob/main/capturas/5nano.png "Después")
+<br />
 - Una vez guardado el fichero editado hacemos otra vez add con 'git add "fichero 1.txt"'
 - Hacemos commit de nuevo con 'git commit -m "conflicto solucionado"'
 - Y con 'git branch --merge' vemos que la rama principal y v0.2 están fusionados
+![Troubleshoot](https://github.com/bingchilling01/masteruah/blob/main/capturas/6conflictosolucionado.png "Solucionado")
 ## _8. Crear Tag v0.2 y eliminar rama v0.2_
 - Creamos el tag v0.2 con 'git tag v0.2'
 - Eliminamos la rama v0.2 con 'git branch -d v0.2'
 ## _10. Listar cambios_
 - Podemos ver todos los commits con 'git log --oneline'
+![Log](https://github.com/bingchilling01/masteruah/blob/main/capturas/7log.png "Log")
 
