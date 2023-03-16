@@ -42,8 +42,8 @@
 ![fichero conflictivo](https://github.com/bingchilling01/masteruah/blob/main/capturas/3fichconf.png "git status")
 - Editamos el fichero con GNU NANO con el comando 'nano "fichero 1.txt"' <br />
 Antes: \
-![Before](https://github.com/bingchilling01/masteruah/blob/main/capturas/4nano.png "Antes")
-\ Después: \
+![Before](https://github.com/bingchilling01/masteruah/blob/main/capturas/4nano.png "Antes") \
+Después: \
 ![After](https://github.com/bingchilling01/masteruah/blob/main/capturas/5nano.png "Después")
 - Una vez guardado el fichero editado hacemos otra vez add con 'git add "fichero 1.txt"'
 - Hacemos commit de nuevo con 'git commit -m "conflicto solucionado"'
