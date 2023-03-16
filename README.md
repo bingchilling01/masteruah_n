@@ -17,7 +17,8 @@
 - Creamos el 'fichero 2.txt' con 'echo "este es el segundo fichero" > "fichero 2.txt"'
 - Añadimos el segundo fichero con 'git add "fichero 2.txt"'
 - Hacemos commit con 'git commit -m "añadir fichero 2 en la rama v0.2"'
-- Y subimos los cambios en la rama v0.2 con 'git push -u origin v0.2', el parámetro -u origin v0.2 especifica la rama en la que queremos subir el archivo
+- Y subimos los cambios en la rama v0.2 con 'git push -u origin v0.2', el parámetro -u origin v0.2 especifica la rama en 
+la que queremos subir el archivo
 ## _4. Fusionar rama principal con v0.2_
 - Cambiamos a la rama principal con 'git checkout main'
 - Fusionamos la rama principal con la v0.2 con 'git merge v0.2' estando en la rama principal
@@ -55,4 +56,18 @@ Después: \
 ## _10. Listar cambios_
 - Podemos ver todos los commits con 'git log --oneline'
 ![Log](https://github.com/bingchilling01/masteruah/blob/main/capturas/7log.png "Log")
-
+## _11. Configurar foto de perfil_
+- Para eso entramos en los ajustes de nuestra cuenta y editamos la foto de perfil
+![Avatar](https://github.com/bingchilling01/masteruah/blob/main/capturas/8fotoperfil.png "Foto de perfil")
+## _12. Autenticación 2FA_
+- Para activar la autenticación en dos factores, debemos usar una aplicación móvil como Google Authenticator, escanear el código QR
+y se nos activará esta opción
+![2FA](https://github.com/bingchilling01/masteruah/blob/main/capturas/9_2fa.png "2FA")
+## _13. Generar clave pública del ordenador_
+- La clave SSH pública de nuestro ordenador se genera con el comando 'ssh-keygen' que generará
+un archivo con la clave dentro
+- Para ver la clave se utiliza el comando 'cat "/ubicacion-del-archivo/clave.pub"'
+![Clave SSH](https://github.com/bingchilling01/masteruah/blob/main/capturas/10clavepub.png "Clave SSH")
+- Por último se copiará esta clave a la configuración de nuestra cuenta de GitHub
+![setClaveSSH](https://github.com/bingchilling01/masteruah/blob/main/capturas/11inputclave.png "setClaveSSH")
+![showClaveSSH](https://github.com/bingchilling01/masteruah/blob/main/capturas/12getclave.png "showClaveSSH")
