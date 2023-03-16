@@ -42,24 +42,17 @@
 ![fichero conflictivo](https://github.com/bingchilling01/masteruah/blob/main/capturas/3fichconf.png "git status")
 - Editamos el fichero con GNU NANO con el comando 'nano "fichero 1.txt"' <br />
 Antes: 
-<br />
 ![Before](https://github.com/bingchilling01/masteruah/blob/main/capturas/4nano.png "Antes")
-<br />
 Después: 
-<br />
 ![After](https://github.com/bingchilling01/masteruah/blob/main/capturas/5nano.png "Después")
-<br />
 - Una vez guardado el fichero editado hacemos otra vez add con 'git add "fichero 1.txt"'
 - Hacemos commit de nuevo con 'git commit -m "conflicto solucionado"'
 - Y con 'git branch --merge' vemos que la rama principal y v0.2 están fusionados
-<br />
 ![Troubleshoot](https://github.com/bingchilling01/masteruah/blob/main/capturas/6conflictosolucionado.png "Solucionado")
-<br />
 ## _8. Crear Tag v0.2 y eliminar rama v0.2_
 - Creamos el tag v0.2 con 'git tag v0.2'
 - Eliminamos la rama v0.2 con 'git branch -d v0.2'
 ## _10. Listar cambios_
 - Podemos ver todos los commits con 'git log --oneline'
-<br />
 ![Log](https://github.com/bingchilling01/masteruah/blob/main/capturas/7log.png "Log")
 
